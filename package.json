@@ -6,6 +6,8 @@
   "scripts": {
     "deploy:dev": "sls deploy --stage dev --region sa-east-1",
     "deploy:stg": "sls deploy --stage stg --region sa-east-1",
+    "remove:dev": "sls remove --stage dev --region sa-east-1",
+    "remove:stg": "sls remove --stage stg --region sa-east-1",
     "offline": "sls offline --stage dev --region sa-east-1",
     "debug": "export SLS_DEBUG=* && node --inspect /usr/bin/sls offline --stage dev --region us-east-1"
   },
